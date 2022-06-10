@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+.container > .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 906px;
+    gap: 56px;
+    background-color: var(--menu-bg-color);
+    
+}
+
+.logo {
+    width: 68px;
+    height: 34px;
+    margin: 56px 16px 0 16px;
+}
+
+.btn-column::before {
+    content: '';
+    display: block;
+    width: 62.24px;
+    height: 2px;
+    margin-left: 18px;
+    margin-top: -30px;
+    background-color: #c4c4c4;
+}
+
+.btn-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+
+
