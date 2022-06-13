@@ -1,4 +1,4 @@
-.btn {
+/* .btn {
     padding: 16px 23px;
     width: 89px;
     height: 57px;
@@ -6,11 +6,11 @@
     background: var(--menu-bg-color);
     border-radius: 25px 0 0 25px;
     border: none;
-    transition: color 0.2s linear;
+    transition: color 1s linear;
     color: transparent;
-}
+} */
 
-.btn:hover {
+/* .a:hover {
     padding: 0 0;
     background: #fff;
     width: 195px;
@@ -23,9 +23,9 @@
     font-size: 16px;
     line-height: 20px;
     text-align: center;
-}
+} */
 
-.btn-column > div:first-child:hover {
+/* .btn-column > div:first-child:hover {
     color: #02577a;
-}
+}  */
 
