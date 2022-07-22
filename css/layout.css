@@ -31,7 +31,7 @@
     height: 100vh;
     gap: 56px;
     background-color: var(--menu-bg-color);
-    transition: all 0.3s linear;
+    transition: all 0.3s ease-out;
 }
 
 
@@ -61,18 +61,15 @@
 } */
 .inner-items:hover > a > .img {
     filter: invert(23%) sepia(25%) saturate(4280%) hue-rotate(171deg) brightness(98%) contrast(98%);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s linear;
 }
 
 .inner-items:hover > .hide {
     color: #02577A;
-      
+      transition: all 0.3s linear;
 }
 
-.inner-items:hover {
-    background-color: crimson;
-    
-}
+
 
 .hide {
     display: none;
@@ -82,10 +79,10 @@
 }
 
 .inner-items {
-    padding: 10px 40px 10px 20px;
-    border-radius: 25px 0 0 25px;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
     gap: 20px;
     color: #c4c4c4;
     font-family: Montserrat;
