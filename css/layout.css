@@ -10,9 +10,11 @@
 .container > .menu {
     display: flex;
     flex-direction: column;
+    position: fixed;
     width: 100px;
-    height: auto;
+    height: 100vh;
     gap: 56px;
+    z-index: 1;
     background-color: var(--menu-bg-color);
     transition: all 0.3s linear;
     
@@ -29,8 +31,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
     width: 206px;
-    height: auto;
+    height: 100vh;
     gap: 56px;
     background-color: var(--menu-bg-color);
     z-index: 999;
