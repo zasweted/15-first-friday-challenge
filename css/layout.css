@@ -271,6 +271,7 @@
     color: #fff;
     background-color: #02577A;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .inner-cal-items {
