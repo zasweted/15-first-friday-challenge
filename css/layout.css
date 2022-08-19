@@ -3,7 +3,6 @@
 .container {
     display: flex;
     width: 100%;
-    height: auto;
     padding: 0;
 }
 
@@ -109,6 +108,7 @@
 
 .main {
     margin-left: 100px;
+    height: auto;
 }
 
 .container > .menu:hover .main {
@@ -228,3 +228,13 @@
 
 
 /*footer end*/
+
+/* calendar start */
+.cal-container-left {
+    background-color: crimson;
+}
+.cal-container-right {
+    background-color: skyblue;
+}
+
+/* calendar end */
