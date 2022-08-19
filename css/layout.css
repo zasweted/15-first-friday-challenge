@@ -235,11 +235,6 @@
 /* calendar start */
 .cal-container-left {
     margin-top: 80px;
-    width: 300px;
-}
-
-.cal-container-right {
-    background-color: skyblue;
 }
 
 .cal-section {
@@ -253,7 +248,7 @@
 
 .inner-cal-container {
     margin: 25px 0;
-    width: 400px;
+    width: 350px;
     height: 100px;
     border-radius: 25px;
     background-color: #fff;
@@ -335,5 +330,84 @@
     bottom: -15px;
     left: 0;
 }
+.cal-container-right {
+    margin-top: 80px;
+    
+}
 
+.inner-cal-callendar {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    background-color: #fff;
+    width: 500px;
+    height: 350px;
+    border-radius: 25px;
+}
+.cal-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: montserrat;
+}
+
+.cal-weekdays {
+    position: relative;
+    margin-top: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(7, 40px [col-start]);
+}
+
+
+.cal-weekdays::after {
+    content: '';
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 1px;
+    bottom: -5px;
+    right: 0;
+    position: absolute;
+}
+
+.cal-monthdays {
+    display: grid;
+    margin-top: 20px;
+    gap: 10px;
+    grid-template-columns: repeat(7, 40px [col-start]);
+}
+.weekdays {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: montserrat;
+    color: #c4c4c4;
+}
+.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: montserrat;
+}
+.innactive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: montserrat;
+    color: #c4c4c4;
+}
+
+.arrow-left {
+    margin-right: 15px;
+}
+.arrow-right {
+    margin-left: 15px;
+}
 /* calendar end */
